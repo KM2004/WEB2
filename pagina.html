@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <!-- presiona ctrl+/ para comentar -->
+  <meta charset="utf-8">
+  <title>King Pizza</title>
+  <link rel="icon" href="favicon.ico">
+  <script defer src="https://use.fontawesome.com/releases/v5.7.0/js/all.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lobster&family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style02.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <section id="titulo">
+    <div class="container-fluid">
+
+
+      <!--nav-bar-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+        <a class="navbar-brand" href="index.html">King Pizza</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02">
+          <spam class="navbar-toggler-icon"></spam>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav ms-auto">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#precios">Precio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#ea">Descarga</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#comentarios">comentarios</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--titulo-->
+      <div class="row">
+
+
+        <div class="div-principal col-lg-6">
+          <h1>Encuentra tu pizza favorita.</h1>
+          <button class="btn btn-danger btn-lg descarga" type="button" name=""><i class="fab fa-android"></i> Download</button>
+          <button class="btn btn-outline-dark descarga" type="button" name=""><i class="fab fa-windows"></i> Download</button>
+        </div>
+        <div class="div-principal col-lg-6">
+          <img id="pizzaimg" src="pizzaa.jpg" alt="pizza.img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--caracteristicas-->
+
+  <section id="caracteristicas">
+    <div class="carac-div">
+      <div class="row">
+
+        <div class="caracteristicas col-lg-4">
+          <i class="icon fas fa-pizza-slice fa-4x"></i>
+          <h3>Gran variedad de pizzas.</h3>
+          <p>¿Por qué conformarse con un tipo de pizza si puedes descubrir màs pizzas de las que te puedes imaginar?</p>
+
+        </div>
+        <div class="caracteristicas col-lg-4">
+          <i class="icon fas fa-utensils fa-4x"></i>
+          <h3>La élite en calidad.</h3>
+          <p>Somos consientes de la variedad de pizzas que existen, pero las mas cualificadas son las que seleccionamos para su gusto.</p>
+
+        </div>
+        <div class="caracteristicas col-lg-4">
+          <i class="icon fas fa-concierge-bell fa-4x"></i>
+          <h3>Servicio impecable.</h3>
+          <p>Contamos con un personal especializado para garantizar su experiencia.</p>
+        </div>
+      </div>
+
+    </div>
+
+
+    <div class="div-pizza row">
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-extremo pizza-border pizza-extremo" src="pizzaborder.jpeg" alt="pizza-boder">
+
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border" src="pizzaborder.jpeg" alt="pizza-border">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border" src="pizzaborder.jpeg" alt="pizza-boder">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border" src="pizzaborder.jpeg" alt="pizza-border">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border" src="pizzaborder.jpeg" alt="pizza-boder">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-extremo pizza-border pizza-extremo" src="pizzaborder.jpeg" alt="pizza-boder">
+      </div>
+
+    </div>
+  </section>
+  <!--comentarios-->
+
+  <section id="comentarios">
+
+
+
+    <div id="carrusel-de-comentarios" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Solo conocia una poca variedad de pizzas pero al conocer mejor sobre estas, siento que me estoy enamorando.</h2>
+          <img class="coment-images" src="persona1.jpeg" alt="persona.img">
+          <em>Managua, Nicaragua</em>
+        </div>
+        <div class="carousel-item">
+          <h2>No me gustaba la simpleza de las pizzas ordinarias asi que probe una "pizza de verano" y me cambio la vida. </h2>
+          <img class="coment-images" src="persona2.jpeg" alt="persona.img">
+          <em>Masaya, Nicaragua</em>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carrusel-de-comentarios" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carrusel-de-comentarios" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Imprenta-comentarios -->
+
+    <section id="press">
+      <img class="imp-img" src="TechCrunch.png" alt="tc-logo">
+      <img class="imp-img" src="tnw.png" alt="tnw-logo">
+      <img class="imp-img" src="bizinsider.png" alt="biz-insider-logo">
+      <img class="imp-img" src="mashable.png" alt="mashable-logo">
+
+    </section>
+
+  </section>
+
+
+  <!--precios-->
+
+  <section id="precios">
+
+    <h2 id="fuente-precio">Nuestras pizzas del dia</h2>
+    <p>Economico y Emocionante las mejores palabras que escucharas hoy.</p>
+
+    <div class="row">
+
+
+      <div class="precio col-lg-4 col-md-6">
+
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="fuente-precio1">Pizza de verano</h2>
+            <p class="p-Encabezado">us$15</p>
+          </div>
+          <div class="card-body">
+            <h2 class="fuente-precio">Incluye:</h2>
+            <p>Frutas de temporadas.</p>
+            <p>Deliciosa miel campestre.</p>
+            <button class="botonn btn btn-dark" type="button" name="button">Ordena aqui</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="precio col-lg-4 col-md-6">
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="fuente-precio1">Pizza de la casa</h2>
+            <p class="p-Encabezado">us$30</p>
+          </div>
+          <div class="card-body">
+            <h2 class="fuente-precio">Incluye:</h2>
+            <p>Pizza tradicional.</p>
+            <p>Salsa de la casa.</p>
+            <p>Borde relleno de jamon.</p>
+            <button class="botonn btn btn-outline-dark" type="button" name="button">Ordena aqui</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="precio col-lg-4">
+
+
+        <div class="card">
+          <div class="card-header">
+            <h2 class="fuente-precio1">Pizza de gigantes</h2>
+            <p class="p-Encabezado">us$40</p>
+          </div>
+          <div class="card-body">
+            <h2 class="fuente-precio">Incluye:</h2>
+            <p>Jamon.</p>
+            <p>Peperoni.</p>
+            <p>Salsa de la casa.</p>
+            <p>Bebida familiar.</p>
+            <button class="botonn btn btn-dark" type="button" name="button">Ordena aqui</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- border-pizza -->
+    <div class="div-pizza-precio row">
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-extremo-precio pizza-border-precio" src="pizzaborder.jpeg" alt="pizza-boder">
+
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border-precio" src="pizzaborder.jpeg" alt="pizza-border">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border-precio" src="pizzaborder.jpeg" alt="pizza-boder">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border-precio" src="pizzaborder.jpeg" alt="pizza-border">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-border-precio" src="pizzaborder.jpeg" alt="pizza-boder">
+      </div>
+      <div class="col-md-2 col-sm-2">
+        <img class="pizza-extremo-precio pizza-border-precio" src="pizzaborder.jpeg" alt="pizza-boder">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!--Entra en accion-->
+
+  <section id="ea">
+
+    <h3 class="font-ea">Encuentra tu pizza favortita en nuestra nueva App</h3>
+
+    <button class="butto-ea btn btn-lg btn-dark" type="button"><i class="fas fa-desktop"></i> Download</button>
+    <button class="butto-ea btn btn-lg btn-light" type="button"><i class="fas fa-mobile"></i> Download</button>
+
+  </section>
+
+  <!--pie-->
+
+  <footer id="footer">
+    <i class="footer-icon fab fa-twitter"></i>
+    <i class="footer-icon fab fa-facebook-f"></i>
+    <i class="footer-icon fab fa-instagram"></i>
+    <i class="footer-icon fas fa-envelope"></i>
+    <p>© Copyright King Pizza</p>
+  </footer>
+
+</body>
+
+</html>

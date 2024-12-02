@@ -1,0 +1,256 @@
+ /* TODO:  */
+ body {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: bold;
+  }
+ 
+  /* Encabezado */
+  h1 {
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 3rem;
+    font-weight: 200;
+    line-height: 1.3;
+    color: #fff;
+  }
+ 
+  #titulo {
+    background-color: #D06224;
+  }
+ 
+  .descarga {
+    margin: 5% 3% 5% 0;
+  }
+ 
+  .container-fluid {
+    padding: 3% 10%;
+  }
+  @media (max-width:1000px){
+    .div-principal{
+      text-align: center;
+    }
+  }
+ 
+  #pizzaimg {
+    border-radius: 100%;
+    height: 30rem;
+    transform: rotate(-100deg);
+  }
+ 
+  /* linea de navegacion-Encabezado */
+  .navbar {
+    padding: 0 0 5rem;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+ 
+  .nav-item {
+    padding: 0 10px;
+    margin-right: 0;
+  }
+ 
+  /* caracteristicas */
+  #caracteristicas {
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+  }
+ 
+  .carac-div {
+    margin: 7rem 9rem;
+  }
+ 
+  .caracteristicas {
+    padding: 3rem 1.5rem 3rem 2;
+    text-align: center;
+  }
+ 
+  h3 {
+    font-size: 2.9rem;
+    font-weight: 100;
+    padding: 1rem;
+    font-family: "Lobster"
+  }
+ 
+  p {
+    color: #886F6F;
+  }
+ 
+  .icon {
+    color: #FF8E00;
+  }
+ 
+  .icon:hover {
+    color: #D06224;
+  }
+ 
+  .div-pizza {
+    margin: 0
+  }
+ 
+  .pizza-border {
+    position: relative;
+    top: 5rem;
+    border-radius: 100%;
+    width: 10rem;
+    margin: 1px 3rem;
+  }
+ 
+  .pizza-extremo {
+    padding: 0;
+    margin: 1px 20px;
+  }
+ 
+  @media (max-width:1239px) {
+    .pizza-border {
+      position: relative;
+      bottom: 20rem;
+      width: 8rem;
+      margin: 1px 1.5rem;
+    }
+  }
+ 
+  /* comentarios */
+  #comentarios {
+    position: relative;
+    z-index: 5;
+    background-color: #630000;
+    color: #fff;
+    padding-top: 2rem;
+    text-align: center;
+  }
+ 
+  h2 {
+    text-align: center;
+    margin-top: 7rem;
+    font-family: "Josefin Sans";
+    line-height: 1.5;
+    font-size: 3rem;
+  }
+ 
+  em {
+    font-family: "Josefin Sans";
+  }
+ 
+  .coment-images {
+    height: 6rem;
+    width: 7rem;
+    border-radius: 80%;
+  }
+ 
+  .carousel-item {
+    padding: 1rem 16rem;
+  }
+ 
+  /* imprenta-comentarios */
+  .imp-img {
+    text-align: center;
+    width: 10rem;
+    margin: 50px;
+  }
+ 
+  /* precios */
+  #precios {
+    text-align: center;
+    padding: 100px;
+  }
+ 
+  .precio {
+    padding: 3% 5%;
+  }
+ 
+  .card {}
+ 
+  .botonn {
+    width: 100%;
+  }
+ 
+  .fuente-precio1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 5px;
+    font-family: "Lobster"
+  }
+ 
+  .fuente-precio {
+    font-size: 2.1rem;
+    font-weight: lighter;
+    margin-top: 5px;
+    font-family: "Lobster"
+  }
+ 
+  .p-Encabezado {
+    color: #323232;
+  }
+ 
+  .pizza-border-precio {
+    position: relative;
+    top: 11.8rem;
+    border-radius: 100%;
+    width: 10rem;
+    margin: 1px 3rem;
+  }
+ 
+  .pizza-extremo-precio {
+    padding: 0;
+    margin: 1px 40px;
+  }
+ 
+  @media (max-width:1239px) {
+    .pizza-border-precio {
+      position: relative;
+      width: 8rem;
+      margin: 1px 1.5rem;
+    }
+ 
+    #pizzaimg {
+ 
+      border-radius: 100%;
+      height: 20rem;
+      transform: rotate(-100deg);
+    }
+  }
+ 
+  #fuente-precio {
+    font-size: 2.7rem;
+    font-weight: lighter;
+    font-family: "Lobster"
+  }
+ 
+  /* entra en accion */
+  #ea {
+    position: relative;
+    z-index: 10;
+    background-color: #D06224;
+    padding: 7rem 10rem;
+    text-align: center;
+  }
+ 
+  .butto-ea {
+    margin: 1px 20px
+  }
+ 
+  .butto-ea:hover {
+    color: #B33030;
+    border-color: #B33030;
+  }
+ 
+  .font-ea {
+    font-family: "Mochiy Pop P One";
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    margin-bottom: 3rem;
+  }
+ 
+  /* pie */
+  #footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5.1rem 5rem;
+  }
+ 
+  .footer-icon {
+    margin: 1px 10px 20px;
+  }
+ 
